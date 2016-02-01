@@ -26,6 +26,7 @@ public class Ellipse extends Shape {
     
     @Override
     public void draw(Graphics g) {
+        
         Graphics2D g2 = (Graphics2D) g;
         g2.draw(new Ellipse2D.Double(this.x, this.y, this.height, this.width));
     }
