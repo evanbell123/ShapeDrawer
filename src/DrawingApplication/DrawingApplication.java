@@ -41,7 +41,6 @@ public class DrawingApplication extends JFrame {
         shapes.add(new Ellipse(100, 75, 50, 50));
         shapes.add(new Ellipse(100, 125, 50, 50));
         shapes.add(new Ellipse(75, 100, 50, 50));
-        
         shapes.add(new Ellipse(125, 100, 50, 50));
         
         shapes.add(new Ellipse(82, 82, 50, 50));
@@ -54,9 +53,8 @@ public class DrawingApplication extends JFrame {
         shapes.add(new Rectangle(75, 75, 100, 100));
         
         /*
-        Other Test
+        Test shapes with unequal height and width
         */
-        
         shapes.add(new Ellipse(300, 300, 25, 75));
         shapes.add(new Rectangle(300, 300, 25, 75));
         shapes.add(new Ellipse(300, 300, 75, 25));
